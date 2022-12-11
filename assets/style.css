@@ -6,12 +6,8 @@
 
 
 .body{
-    background: rgb(44,34,195);
-background: -moz-linear-gradient(3deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
-background: -webkit-linear-gradient(3deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
-background: linear-gradient(3deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c22c3",endColorstr="#fd2d2d",GradientType=1);
-min-height:100vh;
+    background-image: url(img/thumb-1920-749807.png);
+    background-size: cover;
 }
 
 
@@ -37,7 +33,6 @@ min-height:100vh;
     border-radius:100%;
     width:50%;
     height: auto;
-    cursor: pointer;
     margin-left:25%;
     margin-top:15vh;
 }
